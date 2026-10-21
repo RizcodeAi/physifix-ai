@@ -15,7 +15,7 @@ st.set_page_config(
 
 # Title and Subtitle
 st.title("🔍 PhysiFix AI")
-st.subheader("Multimodal Physical Infrastructure & Machinery Defect Inspection Powered by Meta Llama 3.2 Vision")
+st.markdown("### Multimodal Physical Infrastructure & Machinery Defect Inspection Powered by Meta Llama 3.2 Vision")
 
 st.markdown("---")
 
@@ -72,4 +72,4 @@ with col2:
 
 # Footer
 st.markdown("---")
-st.markdown("<p style='text-align: center; color: gray;'>Built for Meta AI Developer Hackathon 2026 | Powered by Meta Llama 3.2 Vision</p>")
+st.markdown("<p style='text-align: center; color: gray;'>Built for Meta AI Developer Hackathon 2026 | Powered by Meta Llama 3.2 Vision</p>", unsafe_allow_html=True)
